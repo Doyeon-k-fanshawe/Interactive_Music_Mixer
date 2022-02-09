@@ -3,10 +3,13 @@
 
 ## Description
 **Characters:** four Sinosuthora webbiana
+
 **Music:** 8 Korean instruments, such as Gayageum zither, Kkwaenggwari Gond, Janggu Drum, Ajaeng Zither, Daeguem Flute, Piri Oboe, Geomungo, Pansori / 2 western instruments, such as bass guitar, Piano
 
 ## Credits
-Put your group name
+**Design: Hiral Shah**
+
+**Development: Doyeon Kim**
 
 TODO: Write credits
 

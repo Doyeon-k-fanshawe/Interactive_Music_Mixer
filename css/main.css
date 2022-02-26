@@ -1,5 +1,172 @@
 @charset "UTF-8";
 
+
+/* General */
+
 .hidden {
   display: none;
+}
+
+h1 {
+  font-family: 'Shizuru', cursive;
+}
+
+h2, h3 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+#container {
+  display: flex;
+  padding: 3em 5em 5em 5em;
+  background-color: #FBF8F1;
+}
+
+
+/* head */
+#head {
+  padding: 2em;
+  background-color: #54BAB9;
+}
+
+#head h2 {
+  font-size: 40px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  font-family: 'Shizuru', cursive !important;
+  text-align: left !important;
+  margin-left: 1.2em;
+}
+
+#head h2 a {
+  color: white;
+}
+
+.secCap {
+  font-family: 'Shizuru', cursive;
+  font-size: 15px;
+  color: gray;
+  letter-spacing: 0px;
+}
+
+/* Instruments 1 */
+
+#musicInstru1 {
+  float: left;
+}
+
+#musicInstru1 h2 {
+  letter-spacing: 3px;
+  font-size: 18px;
+  color: white;
+  background-color: gray;
+  padding: .5em;
+}
+
+.insPart1 {
+  display: flex;
+  margin: .5em;
+}
+
+.instru1 h3 {
+  color: white;
+  background-color: #54BAB9;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+}
+
+.instru2 h3 {
+  color: white;
+  background-color: #54BAB9;
+  width: 120px;
+  height: 120px;
+  margin-left: .4em;
+  text-align: center;
+  line-height: 120px;
+}
+
+.instru3 h3 {
+  color: white;
+  background-color: #54BAB9;
+  width: 120px;
+  height: 120px;
+  margin-left: 4.5em;
+  text-align: center;
+  line-height: 120px;
+}
+
+
+
+
+/* Characters */
+
+#characters {
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+#characters .ani {
+  letter-spacing: 3px;
+  font-size: 18px;
+  color: white;
+  background-color: gray;
+  width: 300px;
+  height: 300px;
+  margin-top: 3em;
+  line-height: 300px;
+  margin-left: 3.6em;
+}
+
+#characters .h2Ele {
+  letter-spacing: 3px;
+  font-size: 18px;
+  color: white;
+  background-color: gray;
+  padding: .5em;
+  margin-top: 1em;
+}
+
+#chara {
+  display: flex;
+  flex-direction: row;
+}
+
+.bird h3 {
+  color: gray;
+  background-color: #E9DAC1;
+  width: 80px;
+  height: 80px;
+  padding: .5em;
+  margin-right: 1em;
+}
+
+.birdLast h3 {
+  color: gray;
+  background-color: #E9DAC1;
+  width: 80px;
+  height: 80px;
+  padding: .5em;
+}
+
+
+
+
+/* Instruments 2 */
+
+#musicInstru2 {
+  float: right;
+}
+
+#musicInstru2 h2 {
+  letter-spacing: 3px;
+  font-size: 18px;
+  color: white;
+  background-color: gray;
+  padding: .5em;
 }

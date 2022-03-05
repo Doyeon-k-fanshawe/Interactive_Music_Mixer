@@ -4,7 +4,7 @@
 /* General */
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 h1 {
@@ -24,6 +24,7 @@ a {
   display: flex;
   padding: 3em 5em 5em 5em;
   background-color: #FBF8F1;
+  justify-content: space-between;
 }
 
 
@@ -67,38 +68,26 @@ a {
   padding: .5em;
 }
 
-.insPart1 {
+.insPart {
   display: flex;
   margin: .5em;
 }
 
-.instru1 h3 {
-  color: white;
-  background-color: #54BAB9;
+.instru1 img {
   width: 120px;
   height: 120px;
-  text-align: center;
-  line-height: 120px;
 }
 
-.instru2 h3 {
-  color: white;
-  background-color: #54BAB9;
+.instru2 img {
   width: 120px;
   height: 120px;
   margin-left: .4em;
-  text-align: center;
-  line-height: 120px;
 }
 
-.instru3 h3 {
-  color: white;
-  background-color: #54BAB9;
+.instru3 img {
   width: 120px;
   height: 120px;
   margin-left: 4.5em;
-  text-align: center;
-  line-height: 120px;
 }
 
 
@@ -107,8 +96,7 @@ a {
 /* Characters */
 
 #characters {
-  margin-left: 10em;
-  margin-right: 10em;
+  margin: 0;
 }
 
 #characters .ani {
@@ -116,11 +104,11 @@ a {
   font-size: 18px;
   color: white;
   background-color: gray;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   margin-top: 3em;
-  line-height: 300px;
-  margin-left: 3.6em;
+  line-height: 350px;
+  margin-left: 5.5em;
 }
 
 #characters .h2Ele {
@@ -137,23 +125,11 @@ a {
   flex-direction: row;
 }
 
-.bird h3 {
-  color: gray;
-  background-color: #E9DAC1;
-  width: 80px;
-  height: 80px;
-  padding: .5em;
-  margin-right: 1em;
-}
-
-.birdLast h3 {
-  color: gray;
-  background-color: #E9DAC1;
-  width: 80px;
-  height: 80px;
+.bird img {
+  width: 120px;
+  height: 120px;
   padding: .5em;
 }
-
 
 
 

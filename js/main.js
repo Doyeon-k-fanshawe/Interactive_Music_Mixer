@@ -2,23 +2,29 @@
   // collect the elements we need to interact with
   let instruments = document.querySelectorAll("#musicInstru1 img"),
 		  instrumentImg = document.querySelectorAll("#musicInstru2 img"),
-      dropZones = document.querySelectorAll(".bird");
+      dropZones = document.querySelectorAll(".bird img"),
+      resetButton = document.getElementById("reset");
 
 
   //function go here
   function startDrag(event) {
     event.dataTransfer.setData("draggedElement", event.target.id);
-    console.log("drag this element");
+    let currentEl = event.dataTransfer.getData("draggedElement");
+    console.log(`drag`, currentEl);
   }
 
   function draggedOver(event) {
 	 event.preventDefault();
-   console.log("dragover this element");
+   let currentEl = event.dataTransfer.getData("draggedElement");
+   console.log(`dragover`, currentEl);
   }
 
   function handleDrop(event) {
 		event.preventDefault();
-		console.log("dropped this element");
+		//console.log("dropped this element");
+    let currentEl = event.dataTransfer.getData("draggedElement");
+		console.log(`dropped this element:`, currentEl);
+    this.appendChild(document.querySelector(`#${currentEl}`));
 	}
 
 
@@ -30,5 +36,9 @@
   	zone.addEventListener("dragover", draggedOver);
   	zone.addEventListener("drop", handleDrop);
   	});
+
+  resetButton.addEventListener("click", () => {
+  	location.reload();
+  	})
 
 })();

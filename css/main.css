@@ -131,6 +131,26 @@ a {
   padding: .5em;
 }
 
+#reset {
+	margin-top: 1em;
+	width: 80px;
+	height: 40px;
+	color: white;
+  background-color: #54BAB9;
+  margin-left: 17.5em;
+  border-radius: 10px;
+}
+
+#reset:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transform: scale(1.2);
+
+  -moz-transition: all .8s ease-in !important;
+  -webkit-transition: all .8s ease-in !important;
+  -o-transition: all .8s ease-in !important;
+  transition: all .8s ease-in !important;
+}
 
 
 /* Instruments 2 */
